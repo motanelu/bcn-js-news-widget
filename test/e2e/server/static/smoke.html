@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Displaying the news</title>
+    <script src="/dist/news.min.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="widget"></div>
+    <script type="text/javascript">
+      NewsWidget.initialize({
+          'selector': '#widget',
+          'api': 'http://127.0.0.1:9000/mock/smoke/',
+          'userId': 1
+      })
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="smokeSpec"
+    errors="1" failures="1" hostname="" id="" package="smokeSpec" skipped="0"
+    tests="1" time="19.17" timestamp="Wed, 19 Apr 2017 21:17:40 GMT">
+  
+    <testcase name="Smoke test" classname="smokeSpec" time="19.17" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.news-widget-navbar li:first-child&gt; does not have css class: &quot;selected&quot;.">    at Object.Smoke test (/Users/tudor/bcnjs/test/e2e/specs/smokeSpec.js:54:15)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;.news-widget-navbar li:second-child&quot; using: css selector
+    at Object.Smoke test (/Users/tudor/bcnjs/test/e2e/specs/smokeSpec.js:51:8)
+    at Module.call (/Users/tudor/bcnjs/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tudor/bcnjs/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tudor/bcnjs/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tudor/bcnjs/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tudor/bcnjs/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tudor/bcnjs/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tudor/bcnjs/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tudor/bcnjs/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

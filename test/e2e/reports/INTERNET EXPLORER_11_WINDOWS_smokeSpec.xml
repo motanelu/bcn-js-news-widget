@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="smokeSpec"
+    errors="0" failures="1" hostname="" id="" package="smokeSpec" skipped="0"
+    tests="1" time="12.03" timestamp="Wed, 19 Apr 2017 14:27:44 GMT">
+  
+    <testcase name="Smoke test" classname="smokeSpec" time="12.03" assertions="1">  <failure message="Timed out while waiting for element &lt;#app.news-widget&gt; to be present for 1000 milliseconds.">    at Object.Smoke test (/Users/tudor/bcnjs/test/e2e/specs/smokeSpec.js:5:8)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

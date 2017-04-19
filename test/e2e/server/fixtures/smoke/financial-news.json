@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Everybody's rich",
+        "url": "http://fake.news/item/1",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies ante quis mollis imperdiet. Sed pulvinar eros et luctus malesuada",
+        "image": "http://static.fake.news/images/1.jpg",
+        "timestamp": "1492375010933"
+    },
+    {
+        "id": 2,
+        "title": "Everybody's richer",
+        "url": "http://fake.news/item/2",
+        "excerpt": "Aliquam id porttitor arcu. Nullam eu dui ac ex scelerisque vulputate id eget lectus. Duis in pulvinar dui. Pellentesque porta vitae dui eu tincidunt.",
+        "image": null,
+        "timestamp": "1492375010933"
+    }
+]
