@@ -1,5 +1,6 @@
 .DS_Store
 node_modules/
 dist/
+test/e2e/reports/
 npm-debug.log
 yarn-error.log
