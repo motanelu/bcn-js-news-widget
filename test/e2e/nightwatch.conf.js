@@ -12,9 +12,6 @@ module.exports = {
   test_workers: false,
 
   test_settings: {
-    /**
-     * Default configuration, for all platforms
-     */
     default: {
       launch_url: 'http://ondemand.saucelabs.com:80',
       selenium_port: 80,
@@ -34,6 +31,17 @@ module.exports = {
         browserName: 'chrome',
         platform: 'Windows 10',
         version: '56.0',
+        javascriptEnabled: true,
+        acceptSslCerts: true
+      }
+    },
+
+    ie11: {
+      integration: true,
+      desiredCapabilities: {
+        browserName: 'internet explorer',
+        platform: 'Windows 10',
+        version: '11.103',
         javascriptEnabled: true,
         acceptSslCerts: true
       }
