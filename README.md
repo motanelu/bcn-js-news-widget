@@ -19,6 +19,8 @@ new NewsWidget({
 })
 ```
 
+The slides from the presentation are available on [SlideShare](https://www.slideshare.net/TudorBarbu/testing-frontends-with-nightwatch-saucelabs)
+
 ### Resources:
 
  * [Nightwatch](nightwatchjs.org)
