@@ -1,8 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+import Promise from 'promise-polyfill'
+
+if (!window.Promise) {
+  window.Promise = Promise
+}
+
 const initialize = ({selector, api, userId}) => {
-  if (!api.endsWith('/')) {
+  if (!/\/$/.test(api)) {
     api += '/'
   }
 
