@@ -45,6 +45,28 @@ module.exports = {
         javascriptEnabled: true,
         acceptSslCerts: true
       }
+    },
+
+    firefox51: {
+      integration: true,
+      desiredCapabilities: {
+        browserName: 'firefox',
+        platform: 'Windows 10',
+        version: '51.0',
+        javascriptEnabled: true,
+        acceptSslCerts: true
+      }
+    },
+
+    safari10: {
+      integration: true,
+      desiredCapabilities: {
+        browserName: 'safari',
+        platform: 'OS X 10.11',
+        version: '10.0',
+        javascriptEnabled: true,
+        acceptSslCerts: true
+      }
     }
   }
 }
